@@ -1,0 +1,19 @@
+{
+  "name": "dark-mode-toggler",
+  "version": "1.0.0",
+  "description": "Theme toggler made in plain JS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harislapo/dark-mode-toggler-js.git"
+  },
+  "author": "Haris Lapo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harislapo/dark-mode-toggler-js/issues"
+  },
+  "homepage": "https://github.com/harislapo/dark-mode-toggler-js#readme"
+}
