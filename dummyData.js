@@ -26,7 +26,7 @@ const news = [
   {
     id: Math.floor(Math.floor(Math.random() * 3242578 + 1)),
     title:
-      'Giraffes just silently went to the list of endangered animals facing extinction',
+      'Giraffes just silently went to the list of endangered animals facing extinction.',
     date: 'December 15, 2018',
     text: 'Two subspecies of giraffes were recently added to the list of "critically endangered" species for the first time ever, as per athelatest report by the (IUCN), which administers the world\'s official endangered species list.',
   },

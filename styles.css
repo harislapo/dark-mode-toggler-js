@@ -10,7 +10,7 @@ body {
   background: #fff;
   color: #282c35;
   line-height: 1.5;
-  font-size: 0.88rem;
+  font-size: 1rem;
   transition: all 0.3s linear;
 }
 
@@ -23,10 +23,12 @@ body {
   padding: 2rem 0;
   margin: 0 auto;
 }
+
 .nav-center span {
   font-size: 3rem;
   letter-spacing: 2px;
 }
+
 .btn {
   background: #d23669;
   color: #fff;
@@ -37,4 +39,29 @@ body {
   cursor: pointer;
   letter-spacing: 1px;
   transition: all 0.3s linear;
+}
+
+.news-feed {
+  width: 90vw;
+  padding: 5rem 0;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.news-feed-item {
+  margin-bottom: 3rem;
+}
+
+.news-feed-item h2 {
+  color: #d23669;
+  text-transform: capitalize;
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+}
+.news-info {
+  margin-bottom: 0.75rem;
+  font-style: italic;
+  color: #64748b;
+}
+.news-info span {
+  margin-right: 0.5rem;
 }
