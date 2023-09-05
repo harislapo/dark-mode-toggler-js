@@ -45,15 +45,9 @@ body {
 }
 
 .btn {
-  background: var(--primary-color);
-  color: var(--background-color);
+  background: transparent;
   border-color: transparent;
-  padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  font-weight: bold;
   cursor: pointer;
-  letter-spacing: 1px;
-  transition: all 0.3s linear;
 }
 
 .news-feed {
@@ -80,6 +74,16 @@ body {
   color: var(--grey);
 }
 
-.news-info span {
-  margin-right: 0.5rem;
+.news-feed-item p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-center span {
+    font-size: 2.3rem;
+  }
+  .news-feed-item h2 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
 }

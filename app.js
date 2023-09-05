@@ -1,8 +1,19 @@
 const newsFeedContainer = document.querySelector('.news-feed');
 const toggleBtn = document.querySelector('.btn');
 
+toggleBtn.innerHTML = '<img src="./favicon-to-dark.png"/>';
+
 toggleBtn.addEventListener('click', () => {
   document.documentElement.classList.toggle('dark-mode');
+  // Get the current img source.
+  const currentSrc = toggleBtn.innerHTML;
+  const currentMode = currentSrc.split('/')[1].split('-')[2].split('.')[0];
+  // Check if the image is for the dark mode, if it is change it to the image for the light mode and vice versa.
+  if (currentMode === 'dark') {
+    toggleBtn.innerHTML = '<img src="./favicon-to-light.png"/>';
+  } else {
+    toggleBtn.innerHTML = '<img src="./favicon-to-dark.png"/>';
+  }
 });
 
 const newsFeedData = news
